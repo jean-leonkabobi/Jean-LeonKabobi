@@ -15,6 +15,89 @@
 
 ## 🚀 Projets réalisés
 
+### 📚 Application de gestion de bibliothèque municipale
+
+Application web permettant **l’automatisation complète de la gestion d’une bibliothèque municipale**, avec une gestion claire des rôles et des opérations métiers.
+
+#### ⚙️ Fonctionnalités
+
+* Gestion des livres (ajout, modification, suppression, recherche)
+* Gestion des emprunts et retours
+* Suivi de la disponibilité des ouvrages
+* Gestion des utilisateurs avec rôles :
+
+  * **ADMIN** : gestion globale du système
+  * **BIBLIOTHÉCAIRE** : gestion des livres et des emprunts
+  * **MEMBRE** : consultation et emprunt de livres
+* Historique des transactions (emprunts / retours)
+
+#### 🏗️ Architecture & Stack
+
+* **Backend** : Java + Jakarta EE
+* **Serveur** : Apache Tomcat
+* **Base de données** : MySQL
+* **Frontend** : JSP / Servlets + Font Awesome
+
+#### 🎯 Objectif
+
+Mettre en place un système robuste permettant de **digitaliser et optimiser la gestion d’une bibliothèque publique**, tout en respectant une architecture backend structurée.
+
+👉 🔗 Lien du projet : https://github.com/jean-leonkabobi/bibliotheque
+
+---
+### 🏗️ Application de gestion commerciale
+
+Application web complète permettant la **gestion des activités commerciales** (produits, achats, ventes) avec une architecture moderne **backend Spring Boot + frontend React**.
+
+#### ⚙️ Fonctionnalités
+
+* Gestion des produits (CRUD complet)
+* Gestion des achats avec **mise à jour automatique du stock**
+* Gestion des ventes avec **validation du stock disponible**
+* Suivi des mouvements de stock
+* Interface utilisateur moderne et responsive
+
+#### 🏗️ Architecture & Stack
+
+**Backend :**
+
+* Java 17
+* Spring Boot 3
+* Spring Data JPA
+* MapStruct (mapping DTO)
+* Lombok
+* H2 Database (dev & tests)
+* Maven
+
+**Frontend :**
+
+* React 18
+* Vite
+* Axios
+* Bootstrap + React Bootstrap
+
+#### ⚡ Points techniques clés
+
+* Architecture REST propre (API Spring Boot)
+* Séparation claire **DTO / Entités**
+* Gestion des règles métier (stock, validation)
+* Communication frontend/backend via API REST
+
+#### 🎯 Objectif
+
+Mettre en place une solution permettant de **digitaliser la gestion commerciale** d’une petite entreprise, avec une architecture moderne inspirée des applications professionnelles.
+
+#### 🚀 Améliorations possibles
+
+* Authentification sécurisée (JWT / Spring Security)
+* Base de données PostgreSQL (production)
+* Dashboard avec statistiques (CA, ventes, stock)
+* Déploiement (Docker / Cloud)
+
+👉 🔗 Lien du projet : https://github.com/jean-leonkabobi/commerce-en-ligne
+
+
+
 
 ## 🎓 Certifications & Diplômes
 
@@ -22,7 +105,12 @@
 
 ## 🧰 Stack & Outils
 
-![Languages](https://skillicons.dev/icons?i=java,javascript,dart,html&css) ![Front](https://skillicons.dev/icons?i=react,angular,flutter) ![Back](https://skillicons.dev/icons?i=) ![DB](https://skillicons.dev/icons?i=postgres,mysql,mongodb) ![UI](https://skillicons.dev/icons?i=tailwind,figma) ![DevOps](https://skillicons.dev/icons?i=docker,git,github)
+![Languages](https://skillicons.dev/icons?i=java,javascript,dart,html,css)
+![Frontend](https://skillicons.dev/icons?i=react,angular,flutter)
+![Design](https://skillicons.dev/icons?i=tailwind,figma)
+![Backend](https://skillicons.dev/icons?i=spring)
+![Database](https://skillicons.dev/icons?i=postgres,mysql,mongodb)
+![Devops](https://skillicons.dev/icons?i=docker,git,github,gitlab)
 
 ---
 
