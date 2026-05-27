@@ -42,7 +42,7 @@ Application web permettant **l’automatisation complète de la gestion d’une 
 
 Mettre en place un système robuste permettant de **digitaliser et optimiser la gestion d’une bibliothèque publique**, tout en respectant une architecture backend structurée.
 
-👉 🔗 Lien du projet : https://github.com/jean-leonkabobi/bibliotheque
+👉 🔗 Lien du projet : ma-bibliotheque.up.railway.app
 
 ---
 ### 🏗️ Application de gestion commerciale
