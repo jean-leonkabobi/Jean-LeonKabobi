@@ -96,6 +96,76 @@ Mettre en place une solution permettant de **digitaliser la gestion commerciale*
 
 👉 🔗 Lien du projet : https://github.com/jean-leonkabobi/commerce-en-ligne
 
+---
+
+## Vetobrousse - SAAS de Gestion Vétérinaire
+
+**Application Offline First** pour les vétérinaires ruraux en Afrique.
+
+### 🎯 Objectif
+Permettre aux vétérinaires de gérer leur stock de médicaments même sans connexion internet, avec synchronisation automatique au retour du réseau.
+
+### 🎯 Cible
+- **Vétérinaires** en tournée (brousse, zones sans réseau)
+- **Secrétaires** au cabinet (gestion administrative)
+- **Administrateurs** (pilotage)
+- **Propriétaires** d'animaux (prise de RDV en ligne)
+
+### ⚡ Fonctionnalités principales
+
+| Module | Description |
+|--------|-------------|
+
+| **Stock Offline First** | Scan en brousse → SQLite local → Synchronisation différée |
+
+| **Gestion DLUO** | Alertes 30 jours avant péremption, code couleur |
+
+| **Traçabilité lots** | Chaque médicament tracé du fournisseur au patient |
+
+| **Conflits LWW** | Résolution des conflits de synchronisation |
+
+| **Patients** | Dossiers médicaux, consultations, ordonnances |
+
+| **Agenda** | RDV, rappels SMS/email 48h et 24h avant |
+
+| **Carte interactive** | Cabinets vétérinaires géolocalisés |
+
+| **Facturation** | Factures PDF, paiements (espèces, Orange Money, Wave) |
+
+| **Relances vaccinales** | Détection automatique à 6 et 12 mois |
+
+| **Notifications** | 7 types d'emails automatiques |
+
+### 🏗️ Architecture
+
+React (Web) + Flutter (Mobile)
+        -> REST API (JWT) 
+    -> Spring Boot 3.2
+        -> JPA/Hibernate
+   ->  PostgreSQL 16
+
+### 🛠️ Stack
+
+**Backend** : Java 17, Spring Boot 3.2, Spring Security JWT, PostgreSQL
+
+**Frontend Web** : React 18, TypeScript, Tailwind CSS, FullCalendar, Leaflet, Recharts
+
+**Mobile** : Flutter 3.x, SQLite, Provider
+
+**Sécurité** : JWT, BCrypt, 3 rôles (ADMIN, SECRETAIRE, VETERINAIRE)
+
+### 📊 Chiffres
+
+- **35+ endpoints** REST
+- **15 entités** JPA
+- **15 pages** React
+- **4 écrans** Flutter
+- **14 cabinets** géolocalisés
+- **4 versions** livrées
+
+👉 🔗 Lien du projet : https://github.com/jean-leonkabobi/vetobrousse
+
+---
 
 
 
@@ -103,7 +173,7 @@ Mettre en place une solution permettant de **digitaliser la gestion commerciale*
 
 ---
 
-## 🧰 Stack & Outils
+## 🧰 Stack & Outilshttps://github.com/jean-leonkabobi/vetobrousse
 
 ![Languages](https://skillicons.dev/icons?i=java,javascript,dart,html,css)
 ![Frontend](https://skillicons.dev/icons?i=react,angular,flutter)
