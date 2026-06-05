@@ -167,6 +167,56 @@ React (Web) + Flutter (Mobile)
 
 ---
 
+##  **TaskManager - Application de Gestion de Tâches**
+
+### **Objectif**
+Développer une application full-stack moderne de gestion de tâches offrant une expérience utilisateur fluide et intuitive, inspirée des meilleurs outils du marché (Linear, Notion, Asana). L'objectif est de permettre aux utilisateurs de gérer efficacement leurs tâches quotidiennes avec une interface minimaliste et professionnelle.
+
+### **Cible**
+- **Professionnels** cherchant à organiser leur workflow personnel
+- **Freelances** gérant leurs projets et deadlines
+- **Étudiants** suivant leurs travaux et révisions
+- **Petites équipes** collaborant sur des projets communs
+
+### **Fonctionnalités principales**
+-  **CRUD complet** - Création, modification, suppression et suivi des tâches
+-  **Drag & Drop** - Réorganisation intuitive par glisser-déposer entre les colonnes
+-  **Tableau de bord** - Visualisation des statistiques et du taux d'avancement
+-  **Mode sombre/clair** - Adaptation aux préférences visuelles
+-  **Authentification JWT** - Connexion sécurisée avec gestion de token
+-  **Design responsive** - Expérience optimale sur tous les appareils
+-  **Design System** - Charte graphique cohérente (couleurs, typographie, composants)
+
+### **Architecture**
+- **Backend** : API REST avec Spring Boot, architecture en couches (Controller → Service → Repository)
+- **Frontend** : SPA avec Vue 3, Composition API, Pinia pour la gestion d'état
+- **Base de données** : PostgreSQL avec JPA/Hibernate pour l'ORM
+- **Sécurité** : Spring Security + JWT pour l'authentification stateless
+- **Communication** : Axios avec intercepteurs pour la gestion des tokens
+
+### **Stack technique**
+  Couche                                Technologies 
+
+ **Frontend**   Vue 3, Pinia, Vue Router, Tailwind CSS, Axios, Lucide Icons 
+ 
+ **Backend**   Spring Boot 3.2, Spring Security, JPA/Hibernate, Maven 
+ 
+ **Base de données**   PostgreSQL 
+ 
+ **Outils**     Git, Vite, PostCSS, Swagger/OpenAPI 
+
+### **Chiffres clés**
+- **2 sprints** de développement (Backend + Frontend)
+- **15+ composants** Vue réutilisables
+- **14 endpoints** REST documentés
+- **3 colonnes** de statut (À faire, En cours, Terminé)
+- **3 niveaux** de priorité (Basse, Moyenne, Haute)
+- **100% responsive** (mobile, tablette, desktop)
+- **2 thèmes** (clair et sombre)
+
+👉 🔗 Lien du projet : https://github.com/jean-leonkabobi/taskmanager / https://github.com/jean-leonkabobi/taskmanager-frontend
+
+---
 
 
 ## 🎓 Certifications & Diplômes
