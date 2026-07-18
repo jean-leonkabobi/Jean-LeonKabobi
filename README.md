@@ -1,5 +1,5 @@
 ![GitHub Stats](https://github-readme-stats-sigma-five.vercel.app/api?username=jean-leonkabobi&show_icons=true&theme=tokyonight)
-![GitHub Streak](https://streak-stats.demolab.com?user=Styveouamba&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com?user=jean-leonkabobi&theme=tokyonight)
 
 ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jean-leonkabobi&layout=compact&theme=tokyonight)
 ---
