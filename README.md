@@ -15,7 +15,7 @@
 
 ## 🧰 Stack & Outils
 
-![Languages](https://skillicons.dev/icons?i=java,ts,dart) ![Front](https://skillicons.dev/icons?i=react,flutter) ![Back](https://skillicons.dev/icons?i=java,nodejs) ![DB](https://skillicons.dev/icons?i=mongodb,postgres,mysql) ![UI](https://skillicons.dev/icons?i=tailwind,figma) ![DevOps](https://skillicons.dev/icons?i=docker,git,github)
+![Languages](https://skillicons.dev/icons?i=java,ts,dart) ![Front](https://skillicons.dev/icons?i=react,flutter) ![Back](https://skillicons.dev/icons?i=Spring,nodejs) ![DB](https://skillicons.dev/icons?i=mongodb,postgres,mysql) ![UI](https://skillicons.dev/icons?i=tailwind,figma) ![DevOps](https://skillicons.dev/icons?i=docker,git,github)
 
 ---
 
